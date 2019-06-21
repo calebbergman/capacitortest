@@ -95,6 +95,9 @@
 </template>
 
 <script>
+import { Plugins, FilesystemDirectory, FilesystemEncoding } from '@capacitor/core'
+const { Filesystem } = Plugins
+
 export default {
   name: "HelloWorld",
   props: {
